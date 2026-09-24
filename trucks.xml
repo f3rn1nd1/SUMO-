@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='utf-8'?>
+<trucks>
+    <truck jadeId="Truck0" sumoId="CA100">
+        <location original="RF12_4645_1206_1" junction="RF12_4645_1206_1" status="ok" distance="0.527" edge="camino_RF12_4645_1206_1_NR1202" lane="camino_RF12_4645_1206_1_NR1202_0" startPos="0" departPos="0" departLane="0" edgeSource="auto_from_junction" edgeReason="único edge saliente desde junction" edgeTo="NR1202" edgeLength="135.51" edgeSpeed="10.00" />
+        <emptySpeed unit="kmh">24</emptySpeed>
+        <loadedSpeed unit="kmh">18</loadedSpeed>
+        <capacity>300</capacity>
+        <dischargeTime unit="ms">58000</dischargeTime>
+        <spottingTime unit="ms">18000</spottingTime>
+        <operationTime>43200</operationTime>
+    </truck>
+    <truck jadeId="Truck1" sumoId="CA101">
+        <location original="RI10A_INPIT_SBH" junction="RI10A_INPIT_SBH" status="ok" distance="0.36" edge="camino_RI10A_INPIT_SBH_NR1057" lane="camino_RI10A_INPIT_SBH_NR1057_0" startPos="0" departPos="0" departLane="0" edgeSource="auto_from_junction" edgeReason="único edge saliente desde junction" edgeTo="NR1057" edgeLength="115.89" edgeSpeed="10.00" />
+        <emptySpeed unit="kmh">23</emptySpeed>
+        <loadedSpeed unit="kmh">18</loadedSpeed>
+        <capacity>300</capacity>
+        <dischargeTime unit="ms">67000</dischargeTime>
+        <spottingTime unit="ms">34000</spottingTime>
+        <operationTime>43200</operationTime>
+    </truck>
+    
+    <truck jadeId="Truck3" sumoId="CA104">
+        <location original="RS2_4600_MIX" junction="RS2_4600_MIX" status="ok" distance="0.484" edge="camino_RS2_4600_MIX_NR246" lane="camino_RS2_4600_MIX_NR246_0" startPos="0" departPos="0" departLane="0" edgeSource="auto_from_junction" edgeReason="único edge saliente desde junction" edgeTo="NR246" edgeLength="177.37" edgeSpeed="10.00" />
+        <emptySpeed unit="kmh">24</emptySpeed>
+        <loadedSpeed unit="kmh">20</loadedSpeed>
+        <capacity>373</capacity>
+        <dischargeTime unit="ms">41000</dischargeTime>
+        <spottingTime unit="ms">178000</spottingTime>
+        <operationTime>25748</operationTime>
+    </truck>
+    <truck jadeId="Truck4" sumoId="CA105">
+        <location original="RS1_4550_SBL" junction="RS1_4550_SBL" status="ok" distance="0.652" edge="camino_RS1_4550_SBL_NR265" lane="camino_RS1_4550_SBL_NR265_0" startPos="0" departPos="0" departLane="0" edgeSource="auto_from_junction" edgeReason="único edge saliente desde junction" edgeTo="NR265" edgeLength="432.08" edgeSpeed="10.00" />
+        <emptySpeed unit="kmh">35</emptySpeed>
+        <loadedSpeed unit="kmh">21</loadedSpeed>
+        <capacity>373</capacity>
+        <dischargeTime unit="ms">50000</dischargeTime>
+        <spottingTime unit="ms">74000</spottingTime>
+        <operationTime>3025</operationTime>
+    </truck>
+    <truck jadeId="Truck5" sumoId="CA106">
+        <location original="RS3_4600_MIX" junction="RS3_4600_MIX" status="ok" distance="0.574" edge="camino_RS3_4600_MIX_NR295" lane="camino_RS3_4600_MIX_NR295_0" startPos="0" departPos="0" departLane="0" edgeSource="auto_from_junction" edgeReason="único edge saliente desde junction" edgeTo="NR295" edgeLength="159.15" edgeSpeed="10.00" />
+        <emptySpeed unit="kmh">35</emptySpeed>
+        <loadedSpeed unit="kmh">20</loadedSpeed>
+        <capacity>373</capacity>
+        <dischargeTime unit="ms">49000</dischargeTime>
+        <spottingTime unit="ms">66000</spottingTime>
+        <operationTime>6164</operationTime>
+    </truck>
+    <truck jadeId="Truck6" sumoId="CA107">
+        <location original="RB1_CHINCHILLA_EST" junction="RB1_CHINCHILLA_EST" status="ok" distance="0.765" edge="camino_RB1_CHINCHILLA_EST_NR233" lane="camino_RB1_CHINCHILLA_EST_NR233_0" startPos="0" departPos="0" departLane="0" edgeSource="auto_from_junction" edgeReason="único edge saliente desde junction" edgeTo="NR233" edgeLength="121.11" edgeSpeed="10.00" />
+        <emptySpeed unit="kmh">27</emptySpeed>
+        <loadedSpeed unit="kmh">21</loadedSpeed>
+        <capacity>373</capacity>
+        <dischargeTime unit="ms">44000</dischargeTime>
+        <spottingTime unit="ms">62000</spottingTime>
+        <operationTime>43200</operationTime>
+    </truck>
+   
+    <truck jadeId="Truck8" sumoId="CA109">
+        <location original="RF10B_4270_1026_1" junction="RF10B_4270_1026_1" status="ok" distance="0.259" edge="camino_RF10B_4270_1026_1_NR1022" lane="camino_RF10B_4270_1026_1_NR1022_0" startPos="0" departPos="0" departLane="0" edgeSource="auto_from_junction" edgeReason="único edge saliente desde junction" edgeTo="NR1022" edgeLength="95.76" edgeSpeed="10.00" />
+        <emptySpeed unit="kmh">23</emptySpeed>
+        <loadedSpeed unit="kmh">19</loadedSpeed>
+        <capacity>300</capacity>
+        <dischargeTime unit="ms">60000</dischargeTime>
+        <spottingTime unit="ms">14000</spottingTime>
+        <operationTime>25513</operationTime>
+    </truck>
+    <truck jadeId="Truck9" sumoId="CA110">
+        <location original="NR1212" junction="NR1212" status="ok" distance="0.535" edge="camino_NR1212_NR1207" lane="camino_NR1212_NR1207_0" startPos="0" departPos="0" departLane="0" edgeSource="auto_from_junction" edgeReason="edge saliente con menor distancia a una pala alcanzable" edgeTo="NR1207" edgeLength="356.17" edgeSpeed="10.00" />
+        <emptySpeed unit="kmh">19</emptySpeed>
+        <loadedSpeed unit="kmh">18</loadedSpeed>
+        <capacity>300</capacity>
+        <dischargeTime unit="ms">31000</dischargeTime>
+        <spottingTime unit="ms">62000</spottingTime>
+        <operationTime>29781</operationTime>
+    </truck>
+    <truck jadeId="Truck10" sumoId="CA111">
+        <location original="RB1_PUMANEUTRO_EST" junction="RB1_PUMANEUTRO_EST" status="ok" distance="0.364" edge="camino_RB1_PUMANEUTRO_EST_NR243" lane="camino_RB1_PUMANEUTRO_EST_NR243_0" startPos="0" departPos="0" departLane="0" edgeSource="auto_from_junction" edgeReason="único edge saliente desde junction" edgeTo="NR243" edgeLength="187.72" edgeSpeed="10.00" />
+        <emptySpeed unit="kmh">20</emptySpeed>
+        <loadedSpeed unit="kmh">18</loadedSpeed>
+        <capacity>300</capacity>
+        <dischargeTime unit="ms">87000</dischargeTime>
+        <spottingTime unit="ms">45000</spottingTime>
+        <operationTime>17608</operationTime>
+    </truck>
+    <truck jadeId="Truck11" sumoId="CA112">
+        <location original="RS3_JUREL_MIX" junction="RS3_JUREL_MIX" status="ok" distance="1.026" edge="camino_RS3_JUREL_MIX_NR212" lane="camino_RS3_JUREL_MIX_NR212_0" startPos="0" departPos="0" departLane="0" edgeSource="auto_from_junction" edgeReason="único edge saliente desde junction" edgeTo="NR212" edgeLength="262.02" edgeSpeed="10.00" />
+        <emptySpeed unit="kmh">27</emptySpeed>
+        <loadedSpeed unit="kmh">19</loadedSpeed>
+        <capacity>300</capacity>
+        <dischargeTime unit="ms">35000</dischargeTime>
+        <spottingTime unit="ms">86000</spottingTime>
+        <operationTime>43200</operationTime>
+    </truck>
+    <truck jadeId="Truck12" sumoId="CA113">
+        <location original="RF11_4330_1102_1" junction="RF11_4330_1102_1" status="ok" distance="0.201" edge="camino_RF11_4330_1102_1_NR1119" lane="camino_RF11_4330_1102_1_NR1119_0" startPos="0" departPos="0" departLane="0" edgeSource="auto_from_junction" edgeReason="único edge saliente desde junction" edgeTo="NR1119" edgeLength="169.10" edgeSpeed="10.00" />
+        <emptySpeed unit="kmh">25</emptySpeed>
+        <loadedSpeed unit="kmh">20</loadedSpeed>
+        <capacity>300</capacity>
+        <dischargeTime unit="ms">74000</dischargeTime>
+        <spottingTime unit="ms">79000</spottingTime>
+        <operationTime>43142</operationTime>
+    </truck>
+    <truck jadeId="Truck13" sumoId="CA114">
+        <location original="RS2_4600_MIX" junction="RS2_4600_MIX" status="ok" distance="0.484" edge="camino_RS2_4600_MIX_NR246" lane="camino_RS2_4600_MIX_NR246_0" startPos="0" departPos="0" departLane="0" edgeSource="auto_from_junction" edgeReason="único edge saliente desde junction" edgeTo="NR246" edgeLength="177.37" edgeSpeed="10.00" />
+        <emptySpeed unit="kmh">25</emptySpeed>
+        <loadedSpeed unit="kmh">19</loadedSpeed>
+        <capacity>300</capacity>
+        <dischargeTime unit="ms">51000</dischargeTime>
+        <spottingTime unit="ms">94000</spottingTime>
+        <operationTime>43200</operationTime>
+    </truck>
+    <truck jadeId="Truck14" sumoId="CA115">
+        <location original="RI11_INPIT_SAL" junction="RI11_INPIT_SAL" status="ok" distance="0.149" edge="camino_RI11_INPIT_SAL_NR1117" lane="camino_RI11_INPIT_SAL_NR1117_0" startPos="0" departPos="0" departLane="0" edgeSource="auto_from_junction" edgeReason="único edge saliente desde junction" edgeTo="NR1117" edgeLength="58.48" edgeSpeed="10.00" />
+        <emptySpeed unit="kmh">19</emptySpeed>
+        <loadedSpeed unit="kmh">18</loadedSpeed>
+        <capacity>300</capacity>
+        <dischargeTime unit="ms">75000</dischargeTime>
+        <spottingTime unit="ms">114000</spottingTime>
+        <operationTime>22077</operationTime>
+    </truck>
+</trucks>

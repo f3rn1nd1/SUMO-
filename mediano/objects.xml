@@ -1,0 +1,158 @@
+<?xml version='1.0' encoding='utf-8'?>
+<objects>
+    <!--Las palas repetidas conservan su junction OWL y se distribuyen provisionalmente en posiciones no superpuestas. Reubicar manualmente en edges cercanos distintos antes de ejecutar la evaluación final.-->
+    <object type="Wastedump" id="UB1_TRANQUEBERM_EST">
+        <location original="UB1_TRANQUEBERM_EST" junction="UB1_TRANQUEBERM_EST" status="ok" distance="1.85" edge="camino_UB1_TRANQUEBERM_EST_NU76" lane="camino_UB1_TRANQUEBERM_EST_NU76_0" startPos="10" endPos="40" stopType="parkingArea" friendlyPos="true" roadsideCapacity="2" />
+        <maximumDischarge>99</maximumDischarge>
+    </object>
+    <object type="Wastedump" id="UB1_TRANQUEESPA_EST">
+        <location original="UB1_TRANQUEESPA_EST" junction="UB1_TRANQUEESPA_EST" status="ok" distance="2.409" edge="camino_UB1_TRANQUEESPA_EST_NU81" lane="camino_UB1_TRANQUEESPA_EST_NU81_0" startPos="10" endPos="40" stopType="parkingArea" friendlyPos="true" roadsideCapacity="2" />
+        <maximumDischarge>99</maximumDischarge>
+    </object>
+    <object type="Crusher" id="CS03">
+        <location original="CS03" junction="CS03" status="ok" distance="0.369" edge="camino_CS03_NR353" lane="camino_CS03_NR353_0" startPos="5.25" endPos="31.99" stopType="containerStop" friendlyPos="true" />
+        <maximumDischarge>1</maximumDischarge>
+    </object>
+    <object type="Wastedump" id="RB1_RAMPAZORRO_EST">
+        <location original="RB1_RAMPAZORRO_EST" junction="RB1_RAMPAZORRO_EST" status="ok" distance="0.513" edge="camino_RB1_RAMPAZORRO_EST_NR372" lane="camino_RB1_RAMPAZORRO_EST_NR372_0" startPos="10" endPos="40" stopType="parkingArea" friendlyPos="true" roadsideCapacity="2" />
+        <maximumDischarge>99</maximumDischarge>
+    </object>
+    <object type="Wastedump" id="RB2_PUMA2_EST">
+        <location original="RB2_PUMA2_EST" junction="RB2_PUMA2_EST" status="ok" distance="0.626" edge="camino_RB2_PUMA2_EST_NR377" lane="camino_RB2_PUMA2_EST_NR377_0" startPos="10" endPos="40" stopType="parkingArea" friendlyPos="true" roadsideCapacity="2" />
+        <maximumDischarge>99</maximumDischarge>
+    </object>
+    <object type="Stockpile" id="Stock_RS1_STOCKCR04_SME">
+        <location original="RS1_STOCKCR04_SME" junction="RS1_STOCKCR04_SME" status="ok" distance="0.36" edge="camino_RS1_STOCKCR04_SME_NR311" lane="camino_RS1_STOCKCR04_SME_NR311_0" startPos="5.92" endPos="36.44" stopType="containerStop" friendlyPos="true" />
+        <maximumDischarge>99</maximumDischarge>
+    </object>
+    <object type="Shovel" id="PA01">
+        <location original="RF10A_4270_1012_1" junction="RF10A_4270_1012_1" status="ok" distance="0.364" edge="camino_RF10A_4270_1012_1_NR1063" lane="camino_RF10A_4270_1012_1_NR1063_0" startPos="2" endPos="11" stopType="parkingArea" roadsideCapacity="1" friendlyPos="true" />
+        <capacity>74</capacity>
+        <loadTime unit="ms">12778</loadTime>
+        <destination>RB2_PUMA2_EST</destination>
+        <metaOperacional>35997</metaOperacional>
+    </object>
+    <object type="Shovel" id="PA02">
+        <location original="RF10B_4255_1001_1" junction="RF10B_4255_1001_1" status="ok" distance="0.297" edge="camino_RF10B_4255_1001_1_NR1062" lane="camino_RF10B_4255_1001_1_NR1062_0" startPos="10" endPos="35" stopType="parkingArea" roadsideCapacity="1" friendlyPos="true" />
+        <capacity>74</capacity>
+        <loadTime unit="ms">15444</loadTime>
+        <destination>CS03</destination>
+        <metaOperacional>45597</metaOperacional>
+    </object>
+    <object type="Shovel" id="PA03">
+        <location original="UB1_4390_EST" junction="UB1_4390_EST" status="ok" distance="1.005" edge="camino_UB1_4390_EST_NU77" lane="camino_UB1_4390_EST_NU77_0" startPos="10" endPos="35" stopType="parkingArea" roadsideCapacity="1" friendlyPos="true" />
+        <capacity>36</capacity>
+        <loadTime unit="ms">27002</loadTime>
+        <destination>UB1_TRANQUEBERM_EST</destination>
+        <metaOperacional>15387</metaOperacional>
+    </object>
+	<object type="Shovel" id="PA04">
+		<location original="UB1_4390_EST"
+				  junction="UB1_4390_EST"
+				  status="ok"
+				  distance="1.005"
+				  edge="camino_NU77_UB1_4390_EST"
+				  lane="camino_NU77_UB1_4390_EST_0"
+				  startPos="185"
+				  endPos="210"
+				  stopType="parkingArea"
+				  roadsideCapacity="1"
+				  friendlyPos="true" />
+		<capacity>42</capacity>
+		<loadTime unit="ms">20597</loadTime>
+		<destination>UB1_TRANQUEESPA_EST</destination>
+		<metaOperacional>20491</metaOperacional>
+	</object>
+	<object type="Shovel" id="PA05">
+		<location original="RF10A_4270_1012_1"
+				  junction="RF10A_4270_1012_1"
+				  status="ok"
+				  distance="0.364"
+				  edge="camino_NR1063_RF10A_4270_1012_1"
+				  lane="camino_NR1063_RF10A_4270_1012_1_0"
+				  startPos="22"
+				  endPos="34"
+				  stopType="parkingArea"
+				  roadsideCapacity="1"
+				  friendlyPos="true" />
+		<capacity>79</capacity>
+		<loadTime unit="ms">19006</loadTime>
+		<destination>RB2_PUMA2_EST</destination>
+		<metaOperacional>55005</metaOperacional>
+	</object>
+	<object type="Shovel" id="PA06">
+		<location original="RF10A_4270_1012_1"
+				  junction="RF10A_4270_1012_1"
+				  status="ok"
+				  distance="0.364"
+				  edge="camino_NR1063_NR1057"
+				  lane="camino_NR1063_NR1057_0"
+				  startPos="14"
+				  endPos="23"
+				  stopType="parkingArea"
+				  roadsideCapacity="1"
+				  friendlyPos="true" />
+		<capacity>74</capacity>
+		<loadTime unit="ms">12778</loadTime>
+		<destination>RB2_PUMA2_EST</destination>
+		<metaOperacional>35997</metaOperacional>
+	</object>
+    <object type="Shovel" id="PA07">
+        <location original="RF10B_4255_1001_1" junction="RF10B_4255_1001_1" status="ok" distance="0.297" edge="camino_NR1062_RF10B_4255_1001_1" lane="camino_NR1062_RF10B_4255_1001_1_0" startPos="10" endPos="35" stopType="parkingArea" roadsideCapacity="1" friendlyPos="true" />
+        <capacity>74</capacity>
+        <loadTime unit="ms">15444</loadTime>
+        <destination>CS03</destination>
+        <metaOperacional>45597</metaOperacional>
+    </object>
+	<object type="Shovel" id="PA08">
+		<location original="UB1_4390_EST"
+				  junction="UB1_4390_EST"
+				  status="ok"
+				  distance="1.005"
+				  edge="camino_NU77_NU65"
+				  lane="camino_NU77_NU65_0"
+				  startPos="45"
+				  endPos="70"
+				  stopType="parkingArea"
+				  roadsideCapacity="1"
+				  friendlyPos="true" />
+		<capacity>36</capacity>
+		<loadTime unit="ms">27002</loadTime>
+		<destination>UB1_TRANQUEBERM_EST</destination>
+		<metaOperacional>15387</metaOperacional>
+	</object>
+	<object type="Shovel" id="PA09">
+		<location original="UB1_4390_EST"
+				  junction="UB1_4390_EST"
+				  status="ok"
+				  distance="1.005"
+				  edge="camino_NU48_NU65"
+				  lane="camino_NU48_NU65_0"
+				  startPos="45"
+				  endPos="70"
+				  stopType="parkingArea"
+				  roadsideCapacity="1"
+				  friendlyPos="true" />
+		<capacity>42</capacity>
+		<loadTime unit="ms">20597</loadTime>
+		<destination>UB1_TRANQUEESPA_EST</destination>
+		<metaOperacional>20491</metaOperacional>
+	</object>
+	<object type="Shovel" id="PA10">
+		<location original="RF10A_4270_1012_1"
+				  junction="RF10A_4270_1012_1"
+				  status="ok"
+				  distance="0.364"
+				  edge="camino_NR1057_RF10A_4270_1017_1"
+				  lane="camino_NR1057_RF10A_4270_1017_1_0"
+				  startPos="14"
+				  endPos="23"
+				  stopType="parkingArea"
+				  roadsideCapacity="1"
+				  friendlyPos="true" />
+		<capacity>79</capacity>
+		<loadTime unit="ms">19006</loadTime>
+		<destination>RB2_PUMA2_EST</destination>
+		<metaOperacional>55005</metaOperacional>
+	</object>
+</objects>

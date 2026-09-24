@@ -1,0 +1,5 @@
+﻿id,tipo,ini,fin,zona,edges,fac,act,src,objetivo,duracion_s,factor_carga,seed
+E3,averia_camion,600,7200,red,todos,1.0,reparar,Duran2021_MTTR,random,3600,1,2026
+E1,derrumbe,5400,9000,red,automatico,1.0,cerrar,,,0,1,2026
+E2,lluvia,10800,14400,red,todos,0.96,reducir,Romanowska2022,,0,1,2026
+E4,averia_pala,16200,21600,red,todos,1.0,carga_lenta,Duran2021_MTTR_duracion_factor_experimental,random,0,1.5,2026
